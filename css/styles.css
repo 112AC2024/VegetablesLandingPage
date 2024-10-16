@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf2c5;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin: auto;
+  height: 62px;
+  width: 1122px;
+}
+
+header .Logo {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #778A50;
+  width: 253px;
+  height: 60px;
+}
+
+header .social-media {
+  display: flex;
+  align-items: center;
+}
+
+header .social-media img{
+  width: max-content;
+  height: max-content;
+  margin-top: ;
+  margin-left: 12px;
+}
+
+header .header-button {
+  display: flex;
+  padding: 4px 8px;
+  background-color: #edf2c5;
+  color: #778A50;
+  border: 1px solid #778A50;
+  border-radius: 3px;
+  margin-left: 11px;
+  margin-right: 12px; 
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+
