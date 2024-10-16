@@ -1,55 +1,130 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  font-family: Noto Sans, sans-serif;
   background-color: #edf2c5;
-  margin: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  margin-top: 36px;
-  margin: auto;
-  height: 62px;
-  width: 1122px;
+  align-items: center;
+  padding: 20px 160px;
 }
 
-header .Logo {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
+.flex {
+  display: flex;
+}
+
+.line {
+  width: 12px;
+  height: 24px;
+  border-right: 1px solid #778A50;
+}
+
+.logo {
   font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  color: #778A50;
-  width: 253px;
-  height: 60px;
+  font-weight: bold;
+  color: #778a50;
 }
 
-header .social-media {
+.social-media img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.header-buttons button {
+  background-color: transparent;
+  border: 1px solid #778a50;
+  color: #778a50;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #778a50;
+}
+
+nav ul {
   display: flex;
-  align-items: center;
+  list-style-type: none;
+  padding-left: 160px;
 }
 
-header .social-media img{
-  width: max-content;
-  height: max-content;
-  margin-top: ;
-  margin-left: 12px;
+nav ul li a {
+  display: block;
+  color: #EDF2C5;
+  text-decoration: none;
+  padding: 15px 20px;
 }
 
-header .header-button {
-  display: flex;
-  padding: 4px 8px;
-  background-color: #edf2c5;
-  color: #778A50;
-  border: 1px solid #778A50;
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  background-color: #778a50;
+  color: #EDF2C5;
+  padding: 10px;
+  margin: 20px 0;
   border-radius: 3px;
-  margin-left: 11px;
-  margin-right: 12px; 
-  align-items: center;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
 }
 
+.vegetable-gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 528px;
+}
+
+.vegetable-gallery img {
+  width: 30%;
+  height: auto;
+}
+
+.contact {
+  width: 528px;
+  margin-left: auto;
+}
+
+.info {
+  background-color: #f7fbda;
+  padding: 16px 32px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-family: Noto Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #7D7D7D;
+}
+
+.line2 {
+  border: 1px solid #7D7D7D;
+  margin: 9px 0;
+}
+
+footer {
+  background-color: #778a50;
+  color: #EDF2C5;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
